@@ -2,7 +2,7 @@ import React from 'react'
 
 const Popup = () => {
   return (
-    <div>Popup</div>
+    <input type='image' />
   )
 }
 

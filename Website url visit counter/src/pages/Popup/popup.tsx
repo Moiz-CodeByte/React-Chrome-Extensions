@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 //@ts-ignore
 
 const Popup = () => {
-  const [urls, setUrls] = useState<Record<string, number>>({});
+  const [urls, setUrls] = useState<Record({});
   const [newUrl, setNewUrl] = useState('');
 
   useEffect(() => {
