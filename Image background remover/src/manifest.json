@@ -1,14 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Website url visit counter",
-  "description": "A chrome extension that counter the visit on url but only when url on the session.",
+  "name": "Image background remover",
+  "description": "A chrome extension that remove the background from image.",
   "background": { "service_worker": "background.bundle.js" },
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icon-34.png"
   },
-  
-  "permissions": ["tabs", "activeTab", "storage"], 
+ 
   "icons": {
     "128": "icon-34.png"
   },
