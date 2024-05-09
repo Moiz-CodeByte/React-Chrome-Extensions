@@ -17,6 +17,10 @@ const Popup = () => {
   };
 
   const createtab = () => {
+    if(!base64Image){
+      console.log('image no found');
+      return;
+    }
     chrome.runtime.sendMessage({ action: 'received', file: base64Image });
   };
 
