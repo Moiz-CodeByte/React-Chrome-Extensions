@@ -1,4 +1,4 @@
-# Chrome Extensions Repository
+# React Chrome Extensions 
 
 This repository hosts two Chrome browser extensions designed to enhance productivity by offering image background removal and website URL visit counting. Both extensions are built using React.
 
